@@ -14,7 +14,7 @@ public class Main {
         System.out.println("ドライバーの数: " + count);
         System.out.println("ドライバー一覧: " + DriverManager.drivers().map(Object::toString).collect(Collectors.joining()));
 
-        String url = "jdbc:mysql://localhost:13306/moppy_test";
+        String url = "jdbc:mysql://localhost:13306/exam";
         String user = "guest_user";
         String password = "guest_password";
         try {

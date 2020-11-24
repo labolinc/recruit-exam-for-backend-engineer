@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: moppy_test
+      MYSQL_DATABASE: exam
       MYSQL_USER: guest_user
       MYSQL_PASSWORD: guest_password
       TZ: Japan

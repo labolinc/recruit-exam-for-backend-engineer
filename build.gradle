@@ -13,5 +13,5 @@ repositories {
 mainClassName = 'Main'
 
 dependencies {
-    runtime "mysql:mysql-connector-java:8.0.22"
+    runtimeOnly "mysql:mysql-connector-java:8.0.22"
 }

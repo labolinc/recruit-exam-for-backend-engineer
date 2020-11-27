@@ -15,3 +15,7 @@ mainClassName = 'Main'
 dependencies {
     runtimeOnly "mysql:mysql-connector-java:8.0.22"
 }
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
